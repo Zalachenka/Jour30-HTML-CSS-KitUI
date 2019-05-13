@@ -1,0 +1,282 @@
+body
+{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 30px;
+	letter-spacing: -1px;
+	word-spacing: 1.2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin-left: 100px;
+  	margin-right: auto;
+}
+
+h1
+{
+	text-align: center;
+	text-shadow: 2px 2px 8px #60034C;
+}
+
+h2
+{
+	color: #005165;
+	 text-decoration: underline;
+}
+
+@font-face
+{
+	font-family: "IndieFlower", "DancingScript", "Pacifico";
+	src: url('/fonts/Indie_Flower/IndieFlower.ttf') format('ttf'),
+	src: url('THP/jour30/fonts/Dancing_Script/DancingScript-Bold.ttf') format('ttf'),
+	src: url('THP/jour30/fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+
+}	
+#container
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: space-around;
+	text-align: center
+
+}
+
+#container2
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: space-around;
+	text-align: center
+
+
+}
+
+#container3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#container4
+{
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	font-family: Trebuchet;
+	flex-direction: row;
+	width: 2000px;
+	padding-left: 50px;
+}
+#container5
+{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 50px;
+	text-align: center;
+	width: 2000px;
+
+}
+.btn-primary
+{
+color: #FFFFFF;
+font-size: 21px;
+line-height: 8px;
+padding: 14px;
+padding-bottom: 1px;
+margin-bottom: 1px;
+border-radius: 29px;
+font-family: Trebuchet, serif;
+background-color: #64DCDC;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #64DCDC;
+display: inline-block;
+margin-right: 50px;
+}
+.btn-primary:hover 
+{
+background: #00FCAC; 
+}
+.btn-primary:active
+{
+background: #144E75; 
+}
+.btn-warning
+{
+color: #FFFFFF;
+font-size: 25px;
+line-height: 15px;
+padding: 14px;
+padding-top: 12px;
+padding-bottom: 8px;
+border-radius: 19px;
+font-family: Trebuchet, serif;
+background-color: #FFC500;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #FFC500;
+display: inline-block;
+margin-right: 50px;
+}
+.btn-warning:hover 
+{
+background: #C0AD0F; 
+}
+.btn-warning:active
+{
+background: #FC3500; 
+}
+.btn-danger
+{
+color: #FFFFFF;
+font-size: 25px;
+line-height: 15px;
+padding: 14px;
+padding-top: 12px;
+padding-bottom: 8px;
+border-radius: 19px;
+font-family: Trebuchet, serif;
+background-color: #FC3500;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #FC0404;
+display: inline-block;
+margin-right: 50px;
+}
+.btn-danger:hover 
+{
+background: #680E04; 
+}
+.btn-danger:active
+{
+background: #FC0404; 
+}
+.btn-success
+{
+color: #FFFFFF;
+font-size: 18px;
+line-height: 18px;
+padding: 14px;
+border-radius: 28px;
+font-family: Trebuchet, serif;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+background-color: #4CBC14;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #4CBC14;
+display: inline-block;
+margin-right: 50px;
+}
+.btn-success:hover 
+{
+background: #3FE909; 
+}
+.btn-success:active 
+{
+background: #4CBC14; 
+}
+.btn-info
+{
+color: #FFFFFF;
+font-size: 18px;
+line-height: 18px;
+padding: 14px;
+border-radius: 28px;
+font-family: Trebuchet, serif;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+background-color: #143CFC;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #143CFC;
+display: inline-block;
+margin-right: 50px;
+}
+.btn-info:hover 
+{
+background: #0F6AC0; 
+}
+.btn-info:active 
+{
+background: #4CBC14; 
+}
+.lists
+{
+	font-size: 25px;
+	padding-left: 50px;
+	color: #1600FC;
+}
+.blockquotes
+{
+	font-size: 30px;
+	padding-right: 100px;
+
+}
+.leads
+{
+	color: #60034C;
+	font-size: 35px;
+	padding-right: 50px;
+}
+.paragraphs
+{
+	font-family: Trebuchet;
+	font-size: 30px;
+	padding-right: 50px;
+}
+.fonts
+{
+	height: 100px;
+	width: 150px;
+
+}
+.headings
+{
+	font-family: Courier
+}
+
+.colors
+
+{
+	height: 100px;
+	width: 150px;
+}
+
+.colors:nth-child(1)
+{
+	background-color: #FF6C00
+}
+
+.colors:nth-child(2)
+{
+	background-color: #43D6F0
+}
+
+.colors:nth-child(3)
+{
+	background-color: #B4B4BC
+}
+
+.colors:nth-child(4)
+{
+	background-color: #84838A
+}
+
+.colors:nth-child(5)
+{
+	background-color: #1e353d
+}
