@@ -92,6 +92,15 @@ h3
 	width: 2000px;
 
 }
+#card1 span
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: center;
+	box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid #143CFC;
+	width: 200px;
+}
 .btn-primary
 {
 color: #FFFFFF;
@@ -703,4 +712,11 @@ background: #4CBC14;
 .colors:nth-child(5)
 {
 	background-color: #1e353d
+}
+.form-group
+{
+	font-family: Trebuchet;
+	font-size: 25px;
+	font-weight: 600;
+
 }
